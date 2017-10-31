@@ -20,7 +20,6 @@ public abstract class UseCase<T extends Repository> {
     protected final PostExecutionThread postExecutionThread;
     protected final T repository;
     protected Subscription subscriber;
-    //protected AnalyticsServiceAJ analyticsService;
 
     public UseCase(ExecutionThread executionThread,
                    PostExecutionThread postExecutionThread,
@@ -55,12 +54,6 @@ public abstract class UseCase<T extends Repository> {
 
     public void unsubscribe() {
         if (this.subscriber != null) this.subscriber.unsubscribe();
-    }
-
-
-
-    private <ExceptionalCase> Exception getError(Response<ExceptionalCase> response) {
-        return new Exception();
     }
 
 }
