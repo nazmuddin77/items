@@ -15,9 +15,6 @@ import com.example.nazmuddinmavliwala.credr.ui.items.di.ItemModule;
 import com.example.nazmuddinmavliwala.credr.ui.items.models.ItemVO;
 import com.example.nazmuddinmavliwala.credr.ui.items.presenters.ItemPresenter;
 import com.example.nazmuddinmavliwala.credr.ui.items.views.adapters.ItemsAdapter;
-import com.example.nazmuddinmavliwala.credr.ui.items.views.viewdelgates.DataViewDelegate;
-import com.example.nazmuddinmavliwala.credr.ui.items.views.viewdelgates.ErrorViewDelegate;
-import com.example.nazmuddinmavliwala.credr.ui.items.views.viewdelgates.LoaderViewDelegate;
 import com.jakewharton.rxbinding2.widget.RxTextView;
 
 import java.util.ArrayList;

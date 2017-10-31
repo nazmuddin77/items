@@ -13,9 +13,7 @@ import com.example.nazmuddinmavliwala.credr.ui.items.models.ItemVO;
 import com.example.nazmuddinmavliwala.credr.ui.items.presenters.ItemDomainToVOConverter;
 import com.example.nazmuddinmavliwala.credr.ui.items.views.activities.ItemListActivity;
 import com.example.nazmuddinmavliwala.credr.ui.items.views.activities.ItemListView;
-import com.example.nazmuddinmavliwala.credr.ui.items.views.viewdelgates.DataViewDelegate;
-import com.example.nazmuddinmavliwala.credr.ui.items.views.viewdelgates.ErrorViewDelegate;
-import com.example.nazmuddinmavliwala.credr.ui.items.views.viewdelgates.LoaderViewDelegate;
+
 
 import java.util.ArrayList;
 import java.util.List;

@@ -11,7 +11,6 @@ import com.example.nazmuddinmavliwala.credr.base.di.BaseActivityComponent;
 import com.example.nazmuddinmavliwala.credr.base.di.BaseActivityModule;
 import com.example.nazmuddinmavliwala.credr.base.di.DaggerBaseActivityComponent;
 import com.example.nazmuddinmavliwala.credr.base.di.RxModule;
-import com.hendraanggrian.rx.activity.RxActivity;
 
 import butterknife.ButterKnife;
 
@@ -43,9 +42,4 @@ public abstract class BaseActivity extends AppCompatActivity implements HasCompo
         return this.component;
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        RxActivity.onActivityResult(requestCode, resultCode, data);
-    }
 }
